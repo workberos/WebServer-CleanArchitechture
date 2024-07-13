@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Constants\" />
+    <Folder Include="Domain\Interfaces\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Application\Services\" />
+  </ItemGroup>
+
+</Project>

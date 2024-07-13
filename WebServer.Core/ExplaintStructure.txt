@@ -1,0 +1,10 @@
+﻿
+1. Giải thích các thành phần
+	
+
+2. Lý do gộp Domain và Application vào Core 
+	- Lợi ích của việc gộp Domain và Application vào Core:
+	- Tách biệt rõ ràng logic nghiệp vụ cốt lõi (Domain) và logic ứng dụng (Application)
+	- Đảm bảo Domain layer không phụ thuộc vào bất kỳ layer nào khác
+	- Application layer chỉ phụ thuộc vào Domain layer
+	- Cả hai layer này đều độc lập với các chi tiết triển khai cụ thể (như database, UI, external services)
