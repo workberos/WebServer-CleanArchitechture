@@ -1,0 +1,4 @@
+﻿[Domain]
+
+- Entities: model ánh xạ các table trong database
+- Objects: các model model được sử dụng bên trong domain (không có id)

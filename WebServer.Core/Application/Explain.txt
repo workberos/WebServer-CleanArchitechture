@@ -1,7 +1,11 @@
-﻿Ý nghĩa các folder: 
+﻿[Application]
+
+Ý nghĩa các folder : 
+- Configuration: Cấu hình cho các thành phần bên trong application layer. Ví dụ: AutoMapperConfig, ValidationConfig
 - Constans: chứa các hằng số trong dự án: ErrorConstant, MessageConstant, PagingConstants, ...
 - Enums: tương tự constant. Ví dụ: ERROR_CODE, STATUS_CODE,...
-- Helper: chứa các phương thức tiện ích, có thể tái sử dụng, không liên quan đến nghiệp vụ. Ví dụ: StringHelper
 - Extentions: Cung cấp các extention phụ trợ, tái sử dụng đoạn mã. Ví dụ: HttpContextExtentions, DatetimeExtentions,...
+- Helper: chứa các phương thức tiện ích, có thể tái sử dụng, không liên quan đến nghiệp vụ. Ví dụ: StringHelper
 - Mappers: Chuyển đổi giữa entities và DTOs. Ví dụ: UserMapper, ProductMapper
-- Configuration: Cấu hình cho các thành phần bên trong application layer. Ví dụ: AutoMapperConfig, ValidationConfig
+- Services: Triển khai logic nghiệp vụ . Ví dụ: UserService, OrderProcessingService
+	+ Interfaces (dùng cho service): Định nghĩa các phương thức của services. Ví dụ: IUserService, IOrderProcessingService
